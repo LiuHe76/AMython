@@ -1,0 +1,50 @@
+PROGRAM CASE_TEST {
+
+/* SUPPORT EXACT ERROR REPORTING INDICATING ERROR LOCATION AND INFORMATION */
+
+/*  TEST FOR SCOPE 
+x = 4
+
+def f() {
+  print(x)
+}
+
+def g(h) {
+  x = 6
+  h()
+}
+
+g(f)
+*/
+
+
+/* TEST FOR WHILE LOOP 
+i = 10
+while (i > 0) {
+  print(i)
+  i = i - 1
+}
+*/
+
+/* TEST FOR RECURSION ALONG WITH IF-ELSE STATEMENT 
+def fib(n) {
+  if (n == 1) {
+    return 1
+  } else {
+    if (n == 2) {
+      return 1
+    } else {
+      return fib(n - 1) + fib(n - 2)
+    }
+  }
+}
+
+print(fib(10))
+*/
+
+/* TEST FOR LAMBDA EXPR ASSIGNMENT 
+f = lambda (x) : {  return x }
+print(f(46))
+*/
+
+}
